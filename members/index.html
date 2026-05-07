@@ -3,49 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>ASRG-NJ Members</title>
+<title>Member Access | Air Structure Research Group</title>
 <link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
+<main class="page">
+  <section class="brand">
+    <img class="logo" src="/IMG_9075.jpeg" alt="Air Structure Research Group">
+    <div class="tagline">TECHNICAL RESEARCH • COMPLIANCE • OPERATIONS</div>
+  </section>
 
-<div class="wrap">
-
-  <div class="left">
-    <img src="/IMG_9075.jpeg" alt="ASRG-NJ Logo">
-  </div>
-
-  <div class="right">
-
+  <section class="card">
     <h1>Member Access</h1>
-
     <form id="loginForm">
-
-      <input
-        type="text"
-        placeholder="Username"
-        required
-      >
-
-      <input
-        type="password"
-        placeholder="Password"
-        required
-      >
-
-      <button type="submit">
-        Sign In
-      </button>
-
+      <label>Username</label>
+      <input type="text" placeholder="Username" required>
+      <label>Password</label>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign In</button>
     </form>
-
     <div id="error"></div>
-
-  </div>
-
-</div>
-
+  </section>
+</main>
 <script src="/login.js"></script>
-
 </body>
 </html>
