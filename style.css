@@ -1,87 +1,12 @@
-body{
-  margin:0;
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:#08111f;
-  font-family:Arial,sans-serif;
-  color:white;
-}
-
-.wrap{
-  width:100%;
-  max-width:1100px;
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  background:#0d1b2a;
-  border-radius:18px;
-  overflow:hidden;
-  box-shadow:0 0 40px rgba(0,0,0,.4);
-}
-
-.left{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:40px;
-  background:#0b1726;
-}
-
-.left img{
-  width:100%;
-  max-width:420px;
-}
-
-.right{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  padding:50px;
-}
-
-h1{
-  margin-bottom:25px;
-  font-size:32px;
-}
-
-input{
-  width:100%;
-  padding:14px;
-  margin-bottom:16px;
-  border:none;
-  border-radius:10px;
-  background:#13263b;
-  color:white;
-  font-size:16px;
-}
-
-button{
-  width:100%;
-  padding:14px;
-  border:none;
-  border-radius:10px;
-  background:#1d4ed8;
-  color:white;
-  font-size:16px;
-  cursor:pointer;
-}
-
-#error{
-  margin-top:16px;
-  color:#93c5fd;
-}
-
-@media(max-width:900px){
-  .wrap{
-    grid-template-columns:1fr;
-  }
-
-  .left{
-    padding:20px;
-  }
-
-  .right{
-    padding:30px;
-  }
-}
+body{margin:0;min-height:100vh;font-family:Arial,sans-serif;background:#f7f9fc;color:#0d2340}
+.page{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:60px;padding:60px;background:linear-gradient(rgba(13,35,64,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(13,35,64,.045) 1px,transparent 1px),#f7f9fc;background-size:42px 42px}
+.brand{text-align:center}
+.logo{max-width:520px;width:100%}
+.tagline{margin-top:20px;font-size:12px;font-weight:700;letter-spacing:.22em;color:#24486f}
+.card{background:#fff;border:1px solid #e4e9f0;border-radius:14px;padding:34px;box-shadow:0 18px 45px rgba(13,35,64,.12)}
+h1{margin:0 0 24px;font-size:26px}
+label{font-size:13px;font-weight:700;display:block;margin:14px 0 7px}
+input{width:100%;box-sizing:border-box;padding:13px;border:1px solid #d7dee8;border-radius:7px;font-size:15px}
+button{width:100%;margin-top:20px;padding:13px;border:0;border-radius:7px;background:#1457b8;color:white;font-size:15px;font-weight:700}
+#error{margin-top:18px;color:#c73535;font-weight:700;line-height:1.35}
+@media(max-width:850px){.page{grid-template-columns:1fr;padding:28px;gap:30px}.logo{max-width:420px}.card{padding:26px}}
