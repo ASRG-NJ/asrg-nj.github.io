@@ -1,139 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Air Structure Research Group</title>
-
-<style>
-
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f7f9fc;
-    color:#0d2340;
-}
-
-.wrapper{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    min-height:100vh;
-    padding:40px;
-    background-image:
-    linear-gradient(rgba(13,35,64,0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(13,35,64,0.05) 1px, transparent 1px);
-    background-size:40px 40px;
-}
-
-.container{
-    max-width:1200px;
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    gap:80px;
-}
-
-.logo{
-    flex:1;
-    min-width:300px;
-    text-align:center;
-}
-
-.logo img{
-    width:100%;
-    max-width:420px;
-}
-
-.content{
-    flex:1;
-    min-width:300px;
-}
-
-h1{
-    font-size:42px;
-    margin-bottom:10px;
-    font-weight:700;
-}
-
-h2{
-    font-size:20px;
-    font-weight:400;
-    margin-bottom:35px;
-    color:#315a8a;
-}
-
-p{
-    line-height:1.8;
-    font-size:18px;
-    margin-bottom:25px;
-}
-
-ul{
-    padding-left:20px;
-    line-height:2;
-    font-size:17px;
-}
-
-.email{
-    margin-top:35px;
-    font-size:18px;
-}
-
-a{
-    color:#1c4d8c;
-    text-decoration:none;
-}
-
-a:hover{
-    text-decoration:underline;
-}
-
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Air Structure Research Group | ASRG</title>
+<meta name="description" content="Air Structure Research Group">
+<link rel="preload" as="image" href="/assets/asrg-logo.png">
+<link rel="stylesheet" href="/assets/styles.css">
 </head>
-
 <body>
-
-<div class="wrapper">
-
-<div class="container">
-
-<div class="logo">
-<img src="IMG_9075.jpeg" alt="ASRG Logo">
-</div>
-
-<div class="content">
-
-<h1>Air Structure Research Group</h1>
-
-<h2>Technical Research, Compliance & Operational Consulting</h2>
-
-<p>
-The Air Structure Research Group provides technical research,
-compliance coordination, operational consulting, and industry collaboration
-relating to air-supported and membrane structures.
-</p>
-
-<ul>
+<div class="site">
+<header class="header">
+  <button class="menu-button" aria-label="Open navigation" aria-expanded="false" data-menu-button>☰</button>
+  <a class="brand" href="/" aria-label="ASRG home">ASRG</a>
+  <nav class="nav" aria-label="Primary navigation"><a class="" href="/about/">About</a><a class="" href="/resources/">Resources</a><a class="" href="/contact/">Contact</a><a class="" href="/members/">Members</a></nav>
+  <nav class="mobile-menu" aria-label="Mobile navigation" data-mobile-menu><a href="/about/">About</a><a href="/resources/">Resources</a><a href="/contact/">Contact</a><a href="/members/">Members</a></nav>
+</header>
+<main class="main">
+  <section class="logo-panel" aria-label="Air Structure Research Group logo"><img src="/assets/asrg-logo.png" alt="Air Structure Research Group"></section>
+  <div class="divider" aria-hidden="true"></div>
+  <section class="content-panel"><div class="content"><h2>Technical Research, Compliance &amp; Operational Consulting</h2>
+<p>The Air Structure Research Group provides technical research, compliance coordination, operational consulting, and industry collaboration relating to air-supported and membrane structures.</p>
+<ul class="clean">
 <li>Structural Safety</li>
 <li>Membrane Structure Operations</li>
 <li>Code Research</li>
 <li>Engineering Coordination</li>
 <li>Technical Best Practices</li>
 </ul>
-
-<div class="email">
-Contact:
-<a href="mailto:info@airstructureresearch.org">
-info@airstructureresearch.org
-</a>
+<div class="home-actions"><a class="btn-outline" href="/members/">Members</a><br><a class="email" href="mailto:info@airstructureresearch.org">info@airstructureresearch.org</a></div></div></section>
+</main>
 </div>
-
-</div>
-
-</div>
-
-</div>
-
+<script src="/assets/site.js"></script>
 </body>
 </html>
